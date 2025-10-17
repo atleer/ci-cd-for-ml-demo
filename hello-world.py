@@ -8,6 +8,7 @@ def main():
 
   print("Current time:", current_time)
   print("Test change on branch to check trigger of workflow upon pull request")
+  print("Test again")
 
 if __name__ == "__main__":
   main()
