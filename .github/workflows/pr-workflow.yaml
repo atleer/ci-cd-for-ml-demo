@@ -16,6 +16,6 @@ jobs:
           python-version: 3.9
       - name: Run Python script
         run: |
-          echo hello_world.py
-          python hello_world.py
+          echo hello-world.py
+          python hello-world.py
           
