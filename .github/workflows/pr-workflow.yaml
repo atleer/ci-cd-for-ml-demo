@@ -23,7 +23,7 @@ jobs:
           echo hello-world.py
           python hello-world.py
       - name: Comment PR
-        uses: thollander/actions-comment-pull-requests@v2
+        uses: thollander/actions-comment-pull-request@v2
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           message: |
